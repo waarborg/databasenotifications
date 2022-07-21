@@ -1,11 +1,12 @@
 {
-    "name": "godforhire/databasenotifications",
+    "name": "waarborg/databasenotifications",
     "description": "Database notifications driver for Laravel 5.3 and up",
-    "homepage": "https://github.com/godforhire/databasenotifications",
+    "homepage": "https://github.com/waarborg/databasenotifications",
     "license": "MIT",
     "authors": [
         {
-            "name": "godforhire"
+            "name": "waarborg",
+            
         }
     ],
     "require": {
@@ -16,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "godforhire\\DatabaseNotifications\\": "src"
+            "waarborg\\DatabaseNotifications\\": "src"
         }
     },
     "config": {
