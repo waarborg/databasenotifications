@@ -1,8 +1,8 @@
 # Database Notification Channel for Laravel 6
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/godforhire/databasenotifications.svg?style=flat-square)](https://packagist.org/packages/godforhire/databasenotifications)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/waarborg/databasenotifications.svg?style=flat-square)](https://packagist.org/packages/godforhire/databasenotifications)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/godforhire/databasenotifications.svg?style=flat-square)](https://packagist.org/packages/godforhire/databasenotifications)
+[![Total Downloads](https://img.shields.io/packagist/dt/waarborg/databasenotifications.svg?style=flat-square)](https://packagist.org/packages/godforhire/databasenotifications)
 
 This package makes it easy to send database notifications with Laravel 6 and up from third-party packages. Those often allow you to send mail or slack notifications, but with this package you can also send them to the notification table.
 For others, simply use Laravel's own notifications.
@@ -19,7 +19,7 @@ For others, simply use Laravel's own notifications.
 You can install the package via composer:
 
 ``` bash
-composer require godforhire/databasenotifications
+composer require waarborg/databasenotifications
 ```
 
 ## Usage
@@ -27,8 +27,8 @@ composer require godforhire/databasenotifications
 Now you can use the channel in your `via()` method inside the notification:
 
 ```php
-use godforhire\DatabaseNotifications\DatabaseChannel;
-use godforhire\DatabaseNotifications\DatabaseMessage;
+use waarborg\DatabaseNotifications\DatabaseChannel;
+use waarborg\DatabaseNotifications\DatabaseMessage;
 use Illuminate\Notifications\Notification;
 
 class BackupHasFailed extends Notification
